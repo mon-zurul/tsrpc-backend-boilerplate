@@ -10,7 +10,7 @@
     "dev": "tsrpc dev --config tsrpc.config.ts",
     "test": "mocha test/**/*.test.ts",
     "build": "tsrpc build --config tsrpc.config.ts",
-    "commit": "git-cz",
+    "commit": "cz",
     "prepare": "husky install",
     "release": "standard-version"
   },
